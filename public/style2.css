@@ -1,0 +1,31 @@
+body
+{
+    background-image: url(https://images.unsplash.com/photo-1505775561242-727b7fba20f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h1
+{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: cadetblue;
+}
+a
+{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+li > div
+{
+    font-size: 20px;
+    color: cornsilk;
+}
+ul
+{
+    list-style-type: none;
+}

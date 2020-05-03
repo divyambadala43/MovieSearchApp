@@ -1,0 +1,14 @@
+<%- include("partials/header2.ejs") %>
+
+<h1>Welcome to the movies page</h1>
+
+
+<% movieData["Search"].forEach(function(movies){  %>
+	<ul>
+		<li> <strong><a href="#"> <%= movies["Title"] %> </a></strong>  <div><%= movies["Year"] %></div></li>
+	</ul>
+
+<% }) %>
+
+<%- include("partials/footer2.ejs") %>
+
